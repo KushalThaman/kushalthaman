@@ -89,6 +89,21 @@ every year.
         </div>
     </div>
     
+      <div class="about-text">
+        <div style="text-align: center;">
+            <h1 class="section-heading">ABOUT ME</h1>
+            <br />
+            <material-toggle
+                [disabled]="false"
+                [(checked)]="fun"
+                label="{{fun ? 'Fun' : 'Boring'}}"
+            >
+            </material-toggle>
+            <hr />
+        </div>
+        <div [innerHTML]="aboutText"></div>
+    </div>
+    
     
     
     <footer class="page-footer">
