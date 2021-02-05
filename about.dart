@@ -9,7 +9,7 @@ import 'package:angular/security.dart';
     coreDirectives,
   ],
   templateUrl: 'index.html',
-  styleUrls: ['script.css'],
+  styleUrls: ['style.css'],
 )
 
     class AboutComponent {
